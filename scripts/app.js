@@ -10,4 +10,4 @@ const filteredArray = array.filter(element => {
    return element % 2 == 0;
 });
 
-console.log(filteredArray)
+console.log(filteredArray);

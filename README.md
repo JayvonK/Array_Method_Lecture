@@ -5,7 +5,7 @@
 
     1. forEach() - this method executes a function for each provided element in the array.
     
-    2. filter() -
+    2. filter() - This method creates a new array wit heach element that passes the test function
 
     3. map() - 
 
