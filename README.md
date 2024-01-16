@@ -11,7 +11,7 @@
 
     4. findIndex() - Returns the index of the first element that meets the condition of the callback
 
-    5. every() - 
+    5. every() - this method tests every element in our array and if all pass our funcdtion condition it returns true
 
 ### High-Order Methods vs Forloops
 
