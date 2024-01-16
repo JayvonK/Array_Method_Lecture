@@ -7,5 +7,7 @@ array.forEach(element => console.log(element));
 //filter method. This method creates a new array wit heach element that passes the test function
 
 const filteredArray = array.filter(element => {
-    element % 2 == 0;
+   return element % 2 == 0;
 });
+
+console.log(filteredArray)
