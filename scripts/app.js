@@ -26,4 +26,6 @@ const index = array.findIndex(element => element == 5);
 
 //every method = this method tests every element in our array and if all pass our funcdtion condition it returns true
 
-const every
+const everyArr = array.every(element => element > 2);
+
+console.log(everyArr);
