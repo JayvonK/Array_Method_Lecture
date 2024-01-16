@@ -18,4 +18,6 @@ const mapArray = array.map(element => element * 2);
 
 // console.log(mapArray);
 
-//findIndex method - 
+//findIndex method -  Returns the index of the first element that meets the condition of the callback
+
+
