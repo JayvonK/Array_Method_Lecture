@@ -3,3 +3,7 @@
 let array = [1, 2, 3, 4, 5];
 
 array.forEach(element => console.log(element));
+
+//filter method. This method creates a new array wit heach element that passes the test function
+
+const filteredArray = [];
