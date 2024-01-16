@@ -12,5 +12,8 @@ const filteredArray = array.filter(element => {
 
 // console.log(filteredArray);
 
-//map method - This method creates a new array with the results of the provided function for each element
+//map method - Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
+const mapArray = array.map(element => element * 2);
+
+console.log(mapArray);
