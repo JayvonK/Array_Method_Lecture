@@ -22,4 +22,8 @@ const mapArray = array.map(element => element * 2);
 
 const index = array.findIndex(element => element == 5);
 
-console.log(index);
+// console.log(index);
+
+//every method = this method tests every element in our array and if all pass our funcdtion condition it returns true
+
+const every
