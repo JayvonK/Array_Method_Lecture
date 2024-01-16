@@ -7,9 +7,9 @@
     
     2. filter() - This method creates a new array wit heach element that passes the test function
 
-    3. map() - 
+    3. map() - Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
-    4. findIndex() -
+    4. findIndex() - Returns the index of the first element that meets the condition of the callback
 
     5. every() - 
 
