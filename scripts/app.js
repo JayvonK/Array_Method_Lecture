@@ -2,7 +2,7 @@
 
 let array = [1, 2, 3, 4, 5];
 
-array.forEach(element => console.log(element));
+// array.forEach(element => console.log(element));
 
 //filter method. This method creates a new array wit heach element that passes the test function
 
@@ -10,4 +10,7 @@ const filteredArray = array.filter(element => {
    return element % 2 == 0;
 });
 
-console.log(filteredArray);
+// console.log(filteredArray);
+
+//map method - This method creates a new array with the results of the provided function for each element
+
