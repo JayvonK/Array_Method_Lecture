@@ -20,4 +20,6 @@ const mapArray = array.map(element => element * 2);
 
 //findIndex method -  Returns the index of the first element that meets the condition of the callback
 
+const index = array.findIndex(element => element == 5);
 
+console.log(index);
