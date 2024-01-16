@@ -16,4 +16,6 @@ const filteredArray = array.filter(element => {
 
 const mapArray = array.map(element => element * 2);
 
-console.log(mapArray);
+// console.log(mapArray);
+
+//findIndex method - 
