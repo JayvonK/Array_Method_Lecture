@@ -22,3 +22,8 @@
     3. Each method is designed for a specific task
 
     4. Reduces chance of errors (Specifically off by 1 Error);
+
+### Chaining High Order Methods / Units
+    What is Chaining? - Chaining involves calling muiltiple methods on the same array/object into a singular expression.
+
+    

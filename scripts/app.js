@@ -29,3 +29,9 @@ const index = array.findIndex(element => element == 5);
 const everyArr = array.every(element => element > 2);
 
 console.log(everyArr);
+
+//Chaining Examples
+
+const newArr = array.filter(element => element % 2 === 0).map(element => element * 2);
+
+//console.log(newArr);
