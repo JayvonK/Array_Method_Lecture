@@ -45,4 +45,30 @@ let nameArray = ["Isaiah Ferguson", "Kenneth Fujimura", "Maddie Gowan", "Jessie 
 
 const mapNameArray = nameArray.map(name => name.split(" ").reverse().join(" ")).sort();
 
-console.log(mapNameArray);
+// (...) is the spread operator
+
+const sortedArray = [...mapNameArray].sort();
+
+
+//console.log(sortedArray);
+
+//Spread Operator examples
+
+//ex 1 Copy
+
+const copyArray = [...nameArray];
+
+console.log(copyArray);
+
+//ex 3 Concatenate
+
+const concatenate = [...array, ...nameArray];
+
+console.log(concatenate);
+
+// 2 Adding elements 
+
+const addedArray = [...array, 6, 7, 8, 9];
+
+console.log(addedArray);
+

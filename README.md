@@ -26,4 +26,13 @@
 ### Chaining High Order Methods / Units
     What is Chaining? - Chaining involves calling muiltiple methods on the same array/object into a singular expression.
 
+### Spread Operator
+    What is a Spread Operator? - The spread operator (...) is used to spread elements of an iterable(Arryas or even strings) into new arrays
+
+    1. Used to make a shallow copy of the array.
+
+    2. Used to concatenate Arrays
+
+    3. Used to add elements into an array.
+
     
