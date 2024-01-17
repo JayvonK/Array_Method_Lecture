@@ -4,7 +4,7 @@ let array = [1, 2, 3, 4, 5];
 
 // array.forEach(element => console.log(element));
 
-//filter method. This method creates a new array wit heach element that passes the test function
+//filter method. This method creates a new array with each element that passes the test function
 
 const filteredArray = array.filter(element => {
    return element % 2 == 0;
@@ -30,8 +30,19 @@ const everyArr = array.every(element => element > 2);
 
 console.log(everyArr);
 
-//Chaining Examples
+//Chaining Example 1
 
 const newArr = array.filter(element => element % 2 === 0).map(element => element * 2);
 
 //console.log(newArr);
+
+//Chaining Example 2
+
+//sort array by last name
+//I need to iterate through nameArray. Need to sort, use reverse method, use split method, use join method
+
+let nameArray = ["Isaiah Ferguson", "Kenneth Fujimura", "Maddie Gowan", "Jessie Lamzon", "Jacob Dekok"];
+
+const mapNameArray = nameArray.map(name => name.split(" ").reverse().join(" ")).sort();
+
+console.log(mapNameArray);
