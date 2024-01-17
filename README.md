@@ -35,4 +35,4 @@
 
     3. Used to add elements into an array.
 
-    
+    4. Does not mutate original array.

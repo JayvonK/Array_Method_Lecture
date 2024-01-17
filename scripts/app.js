@@ -71,4 +71,3 @@ console.log(concatenate);
 const addedArray = [...array, 6, 7, 8, 9];
 
 console.log(addedArray);
-
