@@ -44,6 +44,7 @@ const newArr = array.filter(element => element % 2 === 0).map(element => element
 let nameArray = ["Isaiah Ferguson", "Kenneth Fujimura", "Maddie Gowan", "Jessie Lamzon", "Jacob Dekok"];
 
 const mapNameArray = nameArray.map(name => name.split(" ").reverse().join(" ")).sort();
+console.log(mapNameArray);
 
 // (...) is the spread operator
 
